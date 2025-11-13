@@ -1,0 +1,27 @@
+# Flow Log — Sovereign MeshPoint
+
+### Morning Setup
+- Laptop clean install
+- VPN tunnel confirmed
+- Hotspot broadcast
+
+### Midday Mesh
+- Extender linked to hotspot
+- Initial misrouting → corrected
+
+### Afternoon Validation
+- Extender rebroadcast VPN SSID
+- Devices connected (phone, console)
+- Firewall rules applied
+
+### Evening Test
+- Tried different cities → stable connection
+- Local servers → lower latency in games
+- Faraway servers → connected but unstable
+
+---
+
+## Closing Note
+Portable, secure, and controllable mesh point.  
+Unplug to kill instantly.  
+Documented for both technical and creative reflection.
