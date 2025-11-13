@@ -1,0 +1,34 @@
+ **Ultra‑Condensed Dual‑Lane Boot Card** You can keep right next to your setup.  
+This is the *minimum clicks & plugs* to get both lanes live every time.  
+
+---
+
+## **BOOT CARD — VPN Dual‑Lane Network**
+
+**1️⃣ PC #1 (VPN Source)**  
+- Connect to home internet → Start VPN → Turn on Mobile Hotspot.
+
+**2️⃣ Laptop — Inbound**  
+- Plug in **Physical Host Adapter** → Connect to PC #1’s VPN hotspot.
+
+**3️⃣ Share to Hub**  
+- In *Network Connections*:  
+  - Physical Host Adapter → **Properties → Sharing** → Share to **VirtualBox Host‑Only Ethernet Adapter**.
+
+**4️⃣ Wireless Lane (Realtek)**  
+- Plug in **Realtek USB Wi‑Fi**.  
+- *Settings → Mobile Hotspot*:  
+  - Share from **Host‑Only Adapter** → Over **Wi‑Fi** → Adapter = Realtek.  
+  - Set SSID/password → Turn On.
+
+**5️⃣ Wired Lane (Console)**  
+- Plug Ethernet from laptop → console.  
+- In *Network Connections*: Select **Host‑Only + Ethernet** → **Bridge Connections**.
+
+**6️⃣ Verify**  
+- Phone → Connect to Realtek SSID → Check VPN IP.  
+- Console → Network test → Check VPN IP.
+
+**7️⃣ Shutdown** *(reverse order)*  
+- Off Realtek hotspot → Remove bridge → Stop sharing → Disconnect Physical Host Adapter → Power down.
+
